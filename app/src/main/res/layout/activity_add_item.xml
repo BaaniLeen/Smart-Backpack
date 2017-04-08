@@ -12,12 +12,19 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:singleLine="true"
         android:hint="Item name" />
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:singleLine="true"
         android:hint="Item RFID number"
         android:layout_marginTop="30dp"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD ELEMENT"
+        />
 
 </RelativeLayout>
