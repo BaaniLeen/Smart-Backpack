@@ -1,4 +1,4 @@
-package com.example.mahika.smart_backpack;
+package com.example.IED.smart_backpack.smart_backpack;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.IED.smart_backpack.smart_backpack.R;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;

@@ -1,4 +1,4 @@
-package com.example.mahika.smart_backpack;
+package com.example.IED.smart_backpack.smart_backpack;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.mahika.smart_backpack;
+package com.example.IED.smart_backpack.smart_backpack;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

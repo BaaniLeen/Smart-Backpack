@@ -8,12 +8,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.mahika.smart_backpack.MainActivity">
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.IED.smart_backpack.smart_backpack.MainActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        ></LinearLayout>
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:src="@mipmap/smart_tag"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:id="@+id/imageView" />
 
 </RelativeLayout>
