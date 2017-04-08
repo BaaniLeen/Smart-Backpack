@@ -1,4 +1,4 @@
-package com.example.IED.smart_backpack.smart_backpack;
+package com.ied.smart_backpack;
 
 import org.junit.Test;
 

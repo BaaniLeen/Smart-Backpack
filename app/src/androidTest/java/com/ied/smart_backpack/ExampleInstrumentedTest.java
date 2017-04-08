@@ -1,4 +1,4 @@
-package com.example.IED.smart_backpack.smart_backpack;
+package com.ied.smart_backpack;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.mahika.smart_backpack", appContext.getPackageName());
+        assertEquals("com.ied.smart_backpack", appContext.getPackageName());
     }
 }

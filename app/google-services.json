@@ -8,7 +8,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:36298336100:android:dc36dc4d45d39292",
         "android_client_info": {
-          "package_name": "com.example.mahika.smart_backpack"
+          "package_name": "com.ied.smart_backpack"
         }
       },
       "oauth_client": [
@@ -16,7 +16,7 @@
           "client_id": "36298336100-3d3n0ko2dh69ejln0f5hgd2ec938lggf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.mahika.smart_backpack",
+            "package_name": "com.ied.smart_backpack",
             "certificate_hash": "e89672e4eefaa4bcf327bfe0b866d80fed03016d"
           }
         },
