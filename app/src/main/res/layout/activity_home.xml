@@ -9,27 +9,70 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ied.smart_backpack.HomeActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            >
         <Button
+            android:id="@+id/RFID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/activity_horizontal_margin"
             android:text="MY LIST"
-            android:onClick="list"/>
+            android:onClick="list"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_alignParentLeft="true"/>
+        </LinearLayout>
+
+
+
         <Button
+            android:id="@+id/GPS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
             android:text="SEND LOCATION"
-            android:onClick="location"/>
+            android:onClick="location"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true"
+            />
+
         <Button
+            android:id="@+id/AUTOLOCK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
             android:text="ENABLE AUTOLOCK"
-            android:onClick="autolock"/>
+            android:onClick="autolock"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            />
 
+        <Button
+            android:id="@+id/SMARTTAG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="FIND BOOK"
+            android:onClick="autolock"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </RelativeLayout>
